@@ -193,7 +193,7 @@ function setMyprice() {
 
     // 3. PUT /api/product/${targetId} 에 data를 전달한다.
     $.ajax({
-        type: 'PUT',
+        type: 'POST',
         url: `/api/products/${targetId}`,
         contentType: 'application/json',
         data: JSON.stringify({myprice: myprice}),
