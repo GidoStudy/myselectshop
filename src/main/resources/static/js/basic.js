@@ -3,6 +3,7 @@ let targetId;
 let folderTargetId;
 
 $(document).ready(function () {
+
     const auth = getToken();
 
     if (auth !== undefined && auth !== '') {
